@@ -1,0 +1,11 @@
+---
+title: Welcome
+layout: post
+
+---
+
+I'm moving my blog so I don't have to worry about it staying up. Thanks, GitHub! :)
+
+I'm going to try to make a commitment to write to this more often, something like once a week. We will see how well this works!
+
+Looking forward to the new format!

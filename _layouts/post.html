@@ -1,0 +1,14 @@
+---
+layout: base
+---
+<div class="row">
+ <div class="span8">
+  <h2>{{page.title}}<br /><small>{{page.date | date_to_string}}</small></h2>
+  <div class="post-body">
+  {{page.content | markdownify}}
+  </div>
+ </div>
+ <div class="span4">
+  {% include post_menu.html %}
+ </div>
+</div>

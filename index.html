@@ -1,10 +1,19 @@
-<!doctype html>
-<html>
-<head>
-<title>bkendall.github.com</title>
-</head>
-<body>
-<p>bkendall.github.com</p>
-<p><a href="https://bryankendall.com">Please visit bryankendall.com</a></p>
-</body>
-</html>
+---
+layout: base
+title: Home
+---
+<div class="row">
+ <div class="span8">
+  <h2>
+   <a href="{{site.posts.first.url}}">{{site.posts.first.title}}</a>
+   <br />
+   <small>{{site.posts.first.date | date_to_string}}</small>
+  </h2>
+  <div class="post-body">
+  {{site.posts.first.content | markdownify}}
+  </div>
+ </div>
+ <div class="span4">
+  {% include post_menu.html %}
+ </div>
+</div>

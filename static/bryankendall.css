@@ -1,0 +1,16 @@
+div.header {
+    background: #5A1D1D;
+    background-image: url(/static/header.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    color: white;
+    height: 120px;
+}
+
+h1.name {
+    line-height: 120px;
+}
+
+div.container.content {
+    padding-top: 20px;
+}
