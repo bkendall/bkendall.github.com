@@ -2,7 +2,9 @@
 <html>
  <head>
   <title>{{page.title}} - Bryan Kendall</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="/static/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="/static/bootstrap-responsive.min.css" />
   <link rel="stylesheet" type="text/css" href="/static/bryankendall.css" />
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
   <script type="text/javascript" src="/static/bootstrap-affix.js"></script>
@@ -28,6 +30,14 @@
    </div>
   </div>
   <div class="container content">
+   <div class="row hidden-desktop">
+    <div class="span12">
+     <button class="btn" onclick="$('div#bk-nav').toggle('slideDown');$(this).slideUp();">Menu</button>
+     <div id="bk-nav" style="display:none;">
+      {% include post_menu.html %}
+     </div>
+    </div>
+   </div>
    {{ content }}
   </div>
   <div style="display:none;visibility:hidden;">
