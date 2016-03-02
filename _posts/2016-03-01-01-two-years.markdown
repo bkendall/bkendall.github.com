@@ -1,0 +1,29 @@
+---
+title: Two Years
+layout: post
+identifier: 08-flying
+
+---
+
+Two. Years.
+
+It's been two years since I've actually taken the time to sit down and write anything.
+
+I honestly don't know where to begin. A lot has happened in two years. I've:
+
+- moved a couple times
+- started flying again
+- joined an awesome club that focuses on the arts
+- learned more about Javascript than ever
+- hired some people
+- seen some people leave
+- watch a company and it's people grow
+- formulated opinions on programming and frameworks
+
+and I know there's much more than what I can think of right now.
+
+I'm going to start making time to sit down and write about some of these things. I'm not going to start tonight (that's crazy), but it's something that I want to start doing. Getting thoughts down on to the preverbal paper so I can have them recorded to be able to come back and reflect.
+
+I recently had to go back into a code base and change a good deal of things that I had written. In that moment, it dawned on me how impressively far I've come. There were some awful decisions made in the design of that project, which I'm sure I'll get to at a later time.
+
+Even if this is just for me, I think I'm going to try to make it happen at least once a week. Find something, write about it. I think I can manage baby steps...
