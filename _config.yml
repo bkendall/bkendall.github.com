@@ -1,1 +1,5 @@
-markdown:    kramdown
+---
+name: Backed By Bryan
+description: Ramblings by Bryan
+url: http://bryankendall.com
+markdown: kramdown
